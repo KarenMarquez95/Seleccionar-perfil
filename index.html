@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleccionar Perfil</title>
+  <link rel="stylesheet" href="/Challenge 064/styles.css">
+</head>
+<body>
+  <button id="openModalBtn">Seleccionar Perfil</button>
+
+  <div id="profileModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Seleccionar Perfil</h2>
+      <ul>
+        <li><button onclick="selectProfile('Perfil 1')">Perfil 1</button></li>
+        <li><button onclick="selectProfile('Perfil 2')">Perfil 2</button></li>
+        <li><button onclick="selectProfile('Perfil 3')">Perfil 3</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
